@@ -19,7 +19,7 @@
 /* there's nothing specific to the Cortex-M33 cores vs the (not yet
  * implemented) Hazard3 cores.
  */
-#include "rpi_pico2.dtsi"
+#include "cute_light.dtsi"
 
 &pinctrl {
 	pio0_spi0_default: pio0_spi0_default {

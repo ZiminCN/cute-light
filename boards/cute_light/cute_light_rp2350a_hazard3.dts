@@ -15,4 +15,4 @@
  */
 #include <raspberrypi/rpi_pico/rp2350a.dtsi>
 #include <riscv/raspberrypi/hazard3.dtsi>
-#include "rpi_pico2.dtsi"
+#include "cute_light.dtsi"

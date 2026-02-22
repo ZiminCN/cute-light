@@ -9,7 +9,7 @@
 #include <zephyr/dt-bindings/i2c/i2c.h>
 #include <zephyr/dt-bindings/pwm/pwm.h>
 
-#include "rpi_pico2-pinctrl.dtsi"
+#include "cute_light-pinctrl.dtsi"
 
 / {
 	chosen {

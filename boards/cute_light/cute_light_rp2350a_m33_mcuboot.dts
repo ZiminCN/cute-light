@@ -19,7 +19,7 @@
 /* there's nothing specific to the Cortex-M33 cores vs the (not yet
  * implemented) Hazard3 cores.
  */
-#include "rpi_pico2.dtsi"
+#include "cute_light.dtsi"
 
 /* Partitioning for the RP2350A-M33 board using 4M flash.
  */

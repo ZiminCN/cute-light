@@ -1,7 +1,7 @@
 # Copyright (c) 2024 Andrew Featherstone
 # SPDX-License-Identifier: Apache-2.0
 
-if BOARD_RPI_PICO2
+if BOARD_CUTE_LIGHT
 
 config USB_SELF_POWERED
 	default n
@@ -17,4 +17,4 @@ config WHD_DISABLE_SDIO_PULLUP_DURING_SPI_SLEEP
 
 endif # WIFI_AIROC
 
-endif # BOARD_RPI_PICO2
+endif # BOARD_CUTE_LIGHT
