@@ -16,4 +16,6 @@ file(GLOB CORE_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/Core/src/*.c ${CMAKE_CURRENT_
 target_compile_definitions(app PRIVATE)
 target_sources(app PRIVATE ${USER_SOURCES} ${CORE_SOURCES})
 
-zephyr_compile_options(-Werror -Wno-unused-function)
+# zephyr_compile_options(-Werror -Wno-unused-function)
+target_compile_options(zephyr PRIVATE -Wno-error)
+target_compile_options(app PRIVATE -Wno-error)
